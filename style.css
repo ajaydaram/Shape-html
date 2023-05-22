@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+.sub-heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;  /* Google Font */   
+}
+.main-heading {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;  /* Google Font */   
+}
+
+.personal-info-block {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;    
+}
+.personal-info-heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;  /* Google Font */   
+}
+ul {
+    list-style: none;
+    margin-bottom: 1rem;
+}   
+li {
+    margin: 20px 0;
+    font-family: 'Montserrat', sans-serif;  /* Google Font */   
+}   
+li span {
+    font-weight: 500;
+    color: #333;
+    margin-right: 0.5rem;
+    font-family: 'Montserrat', sans-serif;  /* Google Font */   
+}   
+li a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;  /* Google Font */   
+}   
+li a:hover {
+    color: #f26a2e;
+    font-family: 'Montserrat', sans-serif;  /* Google Font */   
+} 
+input[type=text], input[type=email], input[type=tel], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: 'Montserrat', sans-serif;  /* Google Font */   
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;  /* Google Font */   
+}
+input[type=submit] {
+    background-color: #f26a2e;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;  /* Google Font */   
+}   
+input[type=submit]:hover {
+    background-color: #f26a2e;
+    font-family: 'Montserrat', sans-serif;  /* Google Font */   
+}   
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;  /* Google Font */   
+}   
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    font-family: 'Montserrat', sans-serif;  /* Google Font */   
+}   
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+    font-family: 'Montserrat', sans-serif;  /* Google Font */   
+}   
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    font-family: 'Montserrat', sans-serif;  /* Google Font */   
+}   
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+        font-family: 'Montserrat', sans-serif;  /* Google Font */   
+    }
+}
+
